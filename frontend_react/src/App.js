@@ -1,9 +1,24 @@
 import React from "react";
 import "./App.scss";
+import { Navbar } from "./components";
+import {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Testimonials,
+  Works,
+} from "./container";
 
 const App = () => (
-  <div>
-    <h2>app</h2>
+  <div className="app">
+    <Navbar />
+    <Header />
+    <About />
+    <Works />
+    <Skills />
+    <Testimonials />
+    <Footer />
   </div>
 );
 
